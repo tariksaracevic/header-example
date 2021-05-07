@@ -1,0 +1,226 @@
+body {
+    font-family: myriad-pro,BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin: 0 !important;
+
+}
+ul {
+    list-style: none;
+}
+a {
+    cursor: pointer;
+    background-color: transparent;
+    text-decoration: none;
+}
+svg {
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+svg:hover {
+    cursor: pointer;
+}
+
+#logo {
+    color: black;
+}
+
+.wrapper {
+    max-width:90em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-container {
+    display: flex;
+    position: relative;
+    /*-webkit-box-align: end;*/
+    /*align-items: flex-end;*/
+    max-width: 90em;
+    height: calc(90vh - 8.75rem);
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+}
+
+.dummy-img {
+    object-fit: none;
+    width: 100%;
+    height: calc(90vh - 8.75rem);
+}
+
+.dummy-text {
+    position: absolute;
+    left: 55px;
+    font-size: 48px;
+    color: white;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.page-header {
+    width: 100%;
+    background-color: #fff;
+    color: #333942;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+    -webkit-box-flex: 0;
+    flex: 0 0 auto;
+
+}
+.header {
+    overflow: hidden;
+    background-color: #ffffff;
+    padding: 2.25rem 3rem;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    -webkit-box-align: center;
+}
+
+.header a {
+    float: left;
+    color: #333942;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    border-radius: 4px;
+    vertical-align: middle;
+}
+
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header-right a:hover {
+    color: #f5870d;
+}
+
+.header a.active {
+    background-color: #ffffff;
+    color: #333942;
+}
+
+/* Float the link section to the right */
+.header-right {
+    float: right;
+}
+
+.logo-holder {
+    float: left;
+}
+
+.hidden-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 0 .875rem;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    padding: .5rem 3rem;
+    background-color: #f8f8f8;
+    color: rgba(0,0,0,.28);
+    text-align: right;
+}
+
+.nav-item {
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.mr {
+    margin-right: 1em;
+}
+
+.mr-3 {
+    margin-right: 4em;
+}
+
+.portlet-content {
+    float: right;
+}
+
+.hidden-nav {
+    color:rgba(51,57,66,.6);
+    font-size: 12px;
+}
+
+.newsletter {
+    overflow: hidden;
+    background-color: #f5870d;
+    padding: 20px 10px;
+}
+
+/* Style the header links */
+.newsletter p{
+    float: left;
+    color: #f1f1f1;
+    text-align: center;
+    /*padding: 12px;*/
+    /*text-decoration: none;*/
+    /*font-size: 24px;*/
+    line-height: 1;
+    /*border-radius: 4px;*/
+    /*font-weight: 700;*/
+    margin-left: 2em
+}
+
+.newsletter-tag {
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.newsletter-text {
+    font-size: 18px;
+    padding-top:10px
+}
+
+.newsletter a{
+    vertical-align: center;
+    background-color: #f1f1f1;
+    color: #f5870d;
+    border: 1px solid #f1f1f1;
+    border-radius: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.newsletter-right {
+    float: right;
+    margin-top: 27px;
+    margin-right: 2em;
+}
+
+
+.newsletter a:hover {
+    background-color: #f5870d;
+    color: #f1f1f1;
+}
+
+/*!* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other *!*/
+/*@media screen and (max-width: 500px) {*/
+/*    .header {*/
+/*        background-color: gray;*/
+/*    }*/
+/*    .header a {*/
+/*        float: none;*/
+/*        display: block;*/
+/*        text-align: left;*/
+/*    }*/
+/*    .header-right {*/
+/*        float: none;*/
+/*    }*/
+/*}*/
