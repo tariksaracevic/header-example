@@ -308,8 +308,8 @@ svg:hover {
         display: none;
     }
 
-    .header .menu-btn:checked ~ .menu {
-        max-height: 240px;
+    .header .menu-btn:checked ~ .header-mobile-menu {
+        top: 35em;
     }
 
     .header .menu-btn:checked ~ .menu-icon .nav-icon {
@@ -405,10 +405,6 @@ svg:hover {
         left: 0;
         background: white;
         z-index: 99;
-    }
-
-    .menu-icon:hover + .header-mobile-menu, .header-mobile-menu:hover {
-        transform: translateY(0);
     }
 
     .nav-mobile-item {
